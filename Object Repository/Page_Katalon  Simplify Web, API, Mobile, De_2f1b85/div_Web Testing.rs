@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Web Testing</name>
+   <tag></tag>
+   <elementGuidId>f9c66178-a973-43cf-b5f1-7d2a62a07d52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hs_cos_wrapper_navigation-primary']/nav/ul/li/ul/div/li[2]/ul/li/a/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.title_description_other</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5baae7eb-a83c-422c-875d-19b5d6083680</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title_description_other</value>
+      <webElementGuid>c702ae6c-94ff-43be-8c55-a2d8d986f6f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Web Testing</value>
+      <webElementGuid>46ef4b06-2f94-4a73-a55f-101c76861d0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hs_cos_wrapper_navigation-primary&quot;)/nav[@class=&quot;navigation-primary&quot;]/ul[@class=&quot;submenu level-1&quot;]/li[@class=&quot;has-submenu menu-item Products&quot;]/ul[@class=&quot;submenu level-2&quot;]/div[@class=&quot;cbg&quot;]/li[@class=&quot;has-submenu menu-item SOLUTIONS&quot;]/ul[@class=&quot;submenu level-3&quot;]/li[@class=&quot;no-submenu menu-item Web Testing&quot;]/a[@class=&quot;menu-link&quot;]/div[@class=&quot;item_other&quot;]/div[@class=&quot;description_other&quot;]/div[@class=&quot;title_description_other&quot;]</value>
+      <webElementGuid>bc144087-fc51-4439-b990-ead6e234b3e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hs_cos_wrapper_navigation-primary']/nav/ul/li/ul/div/li[2]/ul/li/a/div/div/div</value>
+      <webElementGuid>5e6e32df-fdc4-4af8-be28-3ac95f88253d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLUTIONS'])[1]/following::div[3]</value>
+      <webElementGuid>dfa280d1-b4c7-463e-b5d5-18c85e4854ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extend automation features in Katalon Studio'])[1]/following::div[3]</value>
+      <webElementGuid>49bbe6ca-ac74-43ab-90fa-b9299a08b7e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A robust solution for end-to-end web testing'])[1]/preceding::div[1]</value>
+      <webElementGuid>a198e6b5-1713-4ac6-a973-b264c3272204</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API Testing'])[1]/preceding::div[2]</value>
+      <webElementGuid>32c8db92-be46-44e5-9a2a-28df9956d5c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Web Testing']/parent::*</value>
+      <webElementGuid>cce091a1-94c8-4ed2-bb36-bfbea80c3e03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li/a/div/div/div</value>
+      <webElementGuid>a67847b0-57ba-418e-9bf3-c23b22d6abdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Web Testing' or . = 'Web Testing')]</value>
+      <webElementGuid>e5a1b4c5-9fae-4069-8c94-bd8f6f77563d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

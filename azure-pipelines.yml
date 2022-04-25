@@ -14,3 +14,5 @@ steps:
   inputs:
     version: '8.3.0'
     executeArgs: '-retry=0 -testSuitePath="Test Suites/Day3/Suite1" -browserType="Chrome" -executionProfile="default" -apiKey="ec70520b-7647-42fc-96ff-6eafa5343246"'
+    x11Display: '1'
+    xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'

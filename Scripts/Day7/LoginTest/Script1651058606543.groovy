@@ -29,5 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_Try Testing This/input'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Login Success/h2_Login Successful )'), 'Login Successful :)')
 
+WebUI.delay(1)
+
 WebUI.closeBrowser()
 

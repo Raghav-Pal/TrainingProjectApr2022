@@ -1,0 +1,17 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: katalonTask@1
+  inputs:
+    version: '8.3.0'
+    executeArgs: '-retry=0 -testSuitePath="Test Suites/Day3/Suite1" -browserType="Chrome" -executionProfile="default" -apiKey="ec70520b-7647-42fc-96ff-6eafa5343246"'
+    xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'

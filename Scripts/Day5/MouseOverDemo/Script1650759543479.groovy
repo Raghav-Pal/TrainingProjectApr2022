@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon.com/')
 
-WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Products'))
+WebUI.mouseOver(findTestObject('Object Repository/WEB/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Products'))
 
-WebUI.click(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/div_Web Testing'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/div_Web Testing'))
 
 WebUI.closeBrowser()
 

@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://testpages.herokuapp.com/styled/alerts/alert-test.html')
 
-WebUI.click(findTestObject('Object Repository/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_alertexamples'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_alertexamples'))
 
 WebUI.waitForAlert(4)
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_confirmexample'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Test Page For JavaScript Alerts/input_Alert Box Examples_confirmexample'))
 
 WebUI.waitForAlert(4)
 
@@ -35,7 +35,7 @@ WebUI.dismissAlert()
 
 WebUI.verifyTextPresent('You clicked Cancel, confirm returned false.', false)
 
-WebUI.click(findTestObject('Object Repository/Page_Test Page For JavaScript Alerts/input_false_promptexample'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Test Page For JavaScript Alerts/input_false_promptexample'))
 
 WebUI.waitForAlert(4)
 

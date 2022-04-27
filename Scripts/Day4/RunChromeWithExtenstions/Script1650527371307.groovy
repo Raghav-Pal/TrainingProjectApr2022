@@ -22,10 +22,10 @@ DriverFactory.changeWebDriver(driver)
 
 WebUI.navigateToUrl('https://www.google.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Google/button_No thanks'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Google/button_No thanks'))
 
-WebUI.click(findTestObject('Object Repository/Page_Google/input__q'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Google/input__q'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Google/input__q'), 'Automation testing')
+WebUI.setText(findTestObject('Object Repository/WEB/Page_Google/input__q'), 'Automation testing')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Google/input__q'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/WEB/Page_Google/input__q'), Keys.chord(Keys.ENTER))

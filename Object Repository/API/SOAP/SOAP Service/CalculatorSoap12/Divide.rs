@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Divide</name>
+   <tag></tag>
+   <elementGuidId>df167f6e-1b77-4656-bd2c-2f7bac91fbc8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/xml; charset=utf-8</value>
+      <webElementGuid>9bef5c82-472d-43b5-91a5-e55f3be0b1a3</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.3.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;soap:Envelope xmlns:soap=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:tem=&quot;http://tempuri.org/&quot;>
+   &lt;soap:Header/>
+   &lt;soap:Body>
+      &lt;tem:Divide>
+         &lt;tem:intA>3&lt;/tem:intA>
+         &lt;tem:intB>3&lt;/tem:intB>
+      &lt;/tem:Divide>
+   &lt;/soap:Body>
+&lt;/soap:Envelope></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod>SOAP12</soapRequestMethod>
+   <soapServiceEndpoint>http://www.dneonline.com/calculator.asmx</soapServiceEndpoint>
+   <soapServiceFunction>Divide</soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <wsdlAddress>http://www.dneonline.com/calculator.asmx?WSDL</wsdlAddress>
+</WebServiceRequestEntity>

@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
-WebUI.setText(findTestObject('Object Repository/Page_Your store. Login/input_Email_Email'), username)
+WebUI.setText(findTestObject('Object Repository/WEB/Page_Your store. Login/input_Email_Email'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Your store. Login/input_Password_Password'), password)
+WebUI.setEncryptedText(findTestObject('Object Repository/WEB/Page_Your store. Login/input_Password_Password'), password)
 
-WebUI.click(findTestObject('Object Repository/Page_Your store. Login/button_Log in'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Your store. Login/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard  nopCommerce administration/a_Logout'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Dashboard  nopCommerce administration/a_Logout'))
 
 WebUI.closeBrowser()
 

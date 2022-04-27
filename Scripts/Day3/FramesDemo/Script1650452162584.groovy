@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.javadoc.io/doc/org.seleniumhq.selenium/selenium-api/3.141.59/index.html')
 
-WebUI.click(findTestObject('Object Repository/Page_selenium-api 3.141.59 javadoc (org.sel_3b98a0/a_org.openqa.selenium'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_selenium-api 3.141.59 javadoc (org.sel_3b98a0/a_org.openqa.selenium'))
 
-WebUI.click(findTestObject('Object Repository/Page_selenium-api 3.141.59 javadoc (org.sel_3b98a0/span_Alert'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_selenium-api 3.141.59 javadoc (org.sel_3b98a0/span_Alert'))
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/Page_Alert/a_org.openqa.selenium'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_Alert/a_org.openqa.selenium'))
 
 WebUI.closeBrowser()
 

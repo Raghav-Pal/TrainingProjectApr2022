@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.google.com/')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Google/input__q'), 'Automation Testing')
+WebUI.sendKeys(findTestObject('Object Repository/WEB/Page_Google/input__q'), 'Automation Testing')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Google/input__q'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/WEB/Page_Google/input__q'), Keys.chord(Keys.ENTER))
 
-not_run: WebUI.sendKeys(findTestObject('Object Repository/Page_Google/input__q'), Keys.chord(Keys.ENTER))
+not_run: WebUI.sendKeys(findTestObject('Object Repository/WEB/Page_Google/input__q'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Automation Testing - Google Search/a_Videos'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Object Repository/WEB/Page_Automation Testing - Google Search/a_Videos'), Keys.chord(Keys.CONTROL, 'a'))
 
-//WebUI.click(findTestObject('Object Repository/Page_Automation Testing - Google Search/a_Videos'))
+//WebUI.click(findTestObject('Object Repository/WEB/Page_Automation Testing - Google Search/a_Videos'))
 
 //WebUI.closeBrowser()
 

@@ -3,6 +3,16 @@
    <description></description>
    <name>VisualValidation2</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value></value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>860e7c18-890a-43b3-824b-b689cf7683ae</testCaseGuid>
 </TestCaseEntity>

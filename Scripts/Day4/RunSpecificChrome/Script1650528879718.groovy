@@ -28,6 +28,6 @@ WebUI.delay(1)
 ////WebUI.switchToWindowIndex(0)
 //WebUI.switchToWindowIndex(0)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Google/input__q'), 'Automation Testing')
+WebUI.sendKeys(findTestObject('Object Repository/WEB/Page_Google/input__q'), 'Automation Testing')
 
 
